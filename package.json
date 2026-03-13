@@ -1,16 +1,25 @@
 {
   "name": "saphira-bump",
-  "version": "0.0.1",
-  "description": "Saphira's official npm package",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "saphira",
-    "api"
-  ],
+  "version": "0.0.7",
   "author": "Sakuraishi",
+  "description": "Official API wrapper for Saphira Bot",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "discord",
+    "api",
+    "saphira",
+    "bump"
+  ],
   "license": "MIT",
-  "type": "commonjs"
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
