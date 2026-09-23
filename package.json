@@ -1,6 +1,6 @@
 {
   "name": "saphira-bump",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Sakuraishi",
   "description": "Official API wrapper for Saphira Bot",
   "main": "dist/index.js",
@@ -20,6 +20,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2",
+    "dotenv": "^17.4.2"
   }
 }
